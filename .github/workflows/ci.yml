@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip3 install mkdocs-material git-authors git-committers
+      - run: python3 -m pip install mkdocs-material git-authors git-committers
       - run: mkdocs gh-deploy --force
