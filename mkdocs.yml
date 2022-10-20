@@ -28,7 +28,3 @@ theme:
 repo_url: https://github.com/clams-tech/docs
 repo_name: clams-tech/docs
 edit_uri: edit/main/docs/
-plugins:
-  - git-committers:
-      repository: clams-tech/docs
-      branch: main
