@@ -11,8 +11,6 @@ Clams is a [free and open source](https://en.wikipedia.org/wiki/Free_and_open-so
 
 If you need some help, first try checking out the FAQ section, otherwise you can [join our Discord server](https://discord.gg/eWfHuJZVaB) and ask a question there and we’ll try and get back to as soon as possible.
 
-→ [FAQ](https://www.notion.so/ab40a70465a84bd3ae8db806799e95ba)
-
 → [Github Issues](https://github.com/clams-tech/browser-app/issues)
 
 → [Discord](https://discord.gg/eWfHuJZVaB)
