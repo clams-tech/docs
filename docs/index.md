@@ -19,4 +19,4 @@ If you need some help, first try checking out the FAQ section, otherwise you can
 
 ## Let’s Go!
 
-Head over to the [Clams app](https://app.clams.tech) and we’ll get started by establishing a [connection](https://www.notion.so/Connection-61c468efb5bd4c7a8fa9fb41df8684dd) to your node.
+Head over to the [Clams app](https://app.clams.tech) and we’ll get started by establishing a [connection](/connection) to your node.

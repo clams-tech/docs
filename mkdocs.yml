@@ -19,6 +19,9 @@ theme:
         name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
+    admonition:
+      info: octicons/info-16
+      tip: octicons/squirrel-16
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
@@ -35,3 +38,9 @@ extra:
       link: https://discord.gg/F2SK8QGW
     - icon: fontawesome/brands/github
       link: https://github.com/clams-tech
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
