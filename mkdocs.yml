@@ -44,3 +44,13 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+nav:
+  - "index.md"
+  - "connection.md"
+  - "authentication.md"
+  - "installation.md"
+  - "encryption.md"
+  - "roadmap.md"
+  - "project-goals.md"
+  - "running-a-vpn.md"
+  - "faq.md"
