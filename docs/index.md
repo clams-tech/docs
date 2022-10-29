@@ -1,15 +1,22 @@
 # Getting Started
 
-## Commands
+Clams is a [free and open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) browser interface for securely and remotely controlling your [Core Lightning](https://github.com/ElementsProject/lightning) node.
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+## Prerequisites
 
-## Project layout
+1. A Core Lightning node running version `0.12.0` or later that is accessible over clearnet.
+2. Command line access to generate a Rune authentication token.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Getting Help
+
+If you need some help, first try checking out the FAQ section, otherwise you can [join our Discord server](https://discord.gg/eWfHuJZVaB) and ask a question there and we’ll try and get back to as soon as possible.
+
+→ [FAQ](https://www.notion.so/ab40a70465a84bd3ae8db806799e95ba)
+
+→ [Github Issues](https://github.com/clams-tech/browser-app/issues)
+
+→ [Discord](https://discord.gg/eWfHuJZVaB)
+
+## Let’s Go!
+
+Head over to the [Clams app](https://app.clams.tech) and we’ll get started by establishing a [connection](https://www.notion.so/Connection-61c468efb5bd4c7a8fa9fb41df8684dd) to your node.
