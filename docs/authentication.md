@@ -2,10 +2,8 @@
 
 To allow Clams to securely interact with your node, you will need to provide it with a valid authentication token with the appropriate permissions. Core Lightning nodes use [rune authentication tokens](https://lightning.readthedocs.io/lightning-commando-rune.7.html) to specify permission to provide fine grained access to the node RPC server via the [Commando plugin](https://github.com/ElementsProject/lightning/blob/master/plugins/commando.c).
 
-<figure>
-  <img alt="Clams Authentication" src="../assets/authentication.png">
-  <figcaption>Clams App Authentication</figcaption>
-</figure>
+<img alt="Clams Authentication" src="../assets/authentication.png">
+<figcaption style='margin: 0 0 2em 0;'>Clams App Authentication</figcaption>
 
 The app is expecting a valid Base64 encoded rune that you can generate via the [commando-rune](https://lightning.readthedocs.io/lightning-commando-rune.7.html) method on your lightning cli. You can create a rune that gives the app whichever permissions you are comfortable with and the app will gracefully fail and display an error message where appropriate indicating if it does not have adequate permissions to perform an action initiated within the app. Below we will include some rune recipes for common permissions groupings that will quickly get you going, but feel free to read the rune documentation to tweak to your liking.
 
@@ -26,19 +24,17 @@ The following rune encodes the following permissions:
 - Can only make requests if the node has an id equal to the session public key
 - Is rate limited to 60 requests a minute
 
-<figure>
 ```shell
 lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary","method/listdatastore", "rate=60"]'
 ```
-<figcaption>CLI Command</figcaption>
-</figure>
 
-<figure>
+<figcaption style='margin: 0 0 2em 0;'>CLI Command</figcaption>
+
 ```shell
 _V6-OWCxC0uexq47DGclJg8bEPn7mAPx1VJ1XyPydhQ9MTMmaWQ9MDMxODQ2Zjg1NTE0ZGUzM2QwYzgwNzI2MWFhNGU4MDFiNWMwYTQ1YTNkYjVjMWZmYWY5YWY4MGVhZmY2Y2UzMzBiJm1ldGhvZF5saXN0fG1ldGhvZF5nZXR8bWV0aG9kPXN1bW1hcnkmbWV0aG9kL2xpc3RkYXRhc3RvcmUmcmF0ZT02MA==
 ```
-<figcaption>The resulting rune</figcaption>
-</figure>
+
+<figcaption style='margin: 0 0 2em 0;'>The resulting rune</figcaption>
 
 ### Lightning Payments
 
@@ -54,25 +50,21 @@ The following rune encodes the following permissions:
 - Can only make requests if the node has an id equal to the session public key
 - Is rate limited to 60 requests a minute
 
-<figure>
 ```shell
 lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=pay|method=keysend|method=invoice","method/listdatastore", "rate=60"]'
 ```
-<figcaption>CLI Command</figcaption>
-</figure>
 
-<figure>
+<figcaption style='margin: 0 0 2em 0;'>CLI Command</figcaption>
+
 ```shell
 KXmMos0AFEwsScl7EZ__CpfA4iT9mXcKI6nYq8_ZCS89MTQmaWQ9MDMxODQ2Zjg1NTE0ZGUzM2QwYzgwNzI2MWFhNGU4MDFiNWMwYTQ1YTNkYjVjMWZmYWY5YWY4MGVhZmY2Y2UzMzBiJm1ldGhvZF5saXN0fG1ldGhvZF5nZXR8bWV0aG9kPXN1bW1hcnl8bWV0aG9kPXBheXxtZXRob2Q9a2V5c2VuZHxtZXRob2Q9aW52b2ljZSZtZXRob2QvbGlzdGRhdGFzdG9yZSZyYXRlPTYw
 ```
-<figcaption>The resulting rune</figcaption>
-</figure>
+
+<figcaption style='margin: 0 0 2em 0;'>The resulting rune</figcaption>
 
 ## Rune Decoding
 
 Once you input a rune, the app will automatically decode it and display it in a human readable form. Here is what the “readonly” recipe from above looks like:
 
-<figure>
-  <img alt="Rune summary" src="../assets/rune-summary.png">
-  <figcaption>Clams App Rune Summary</figcaption>
-</figure>
+<img alt="Rune summary" src="../assets/rune-summary.png">
+<figcaption style='margin: 0 0 2em 0;'>Clams App Rune Summary</figcaption>

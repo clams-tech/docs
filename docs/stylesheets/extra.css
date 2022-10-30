@@ -1,0 +1,14 @@
+:root {
+  /* header */
+  --md-primary-fg-color:        #6305f0;
+  /* anchor */
+  --md-typeset-a-color:  #6305f0;
+  /* anchor:hover */
+  --md-accent-fg-color: #6305f0; 
+}
+
+figcaption {
+  margin: 0
+}
+
+

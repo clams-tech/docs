@@ -9,10 +9,8 @@ Clams is a Progressive Web App (PWA), which means that you can install it locall
 3. Press “Add”
 4. Then you will see the Clams icon on your home screen
 
-<figure>
-  <img alt="iOS install" src="../assets/installation-ios.png">
-  <figcaption>iOS Install</figcaption>
-</figure>
+<img alt="iOS install" src="../assets/installation-ios.png">
+<figcaption style='margin: 0 0 2em 0;'>iOS Install</figcaption>
 
 ## Android
 
@@ -23,10 +21,8 @@ Clams is a Progressive Web App (PWA), which means that you can install it locall
 3. Press “Add to Home screen”
 4. Then you will see the Clams icon on your home screen
 
-<figure>
-  <img alt="Android install" src="../assets/installation-android.png">
-  <figcaption>Android Install</figcaption>
-</figure>
+<img alt="Android install" src="../assets/installation-android.png">
+<figcaption style='margin: 0 0 2em 0;'>Android Install</figcaption>
 
 ## Desktop (Brave/Chrome)
 
@@ -34,7 +30,5 @@ Clams is a Progressive Web App (PWA), which means that you can install it locall
 2. Click “Install” button
 3. Clams will now work like a standalone app
 
-<figure>
-  <img alt="Brave install" src="../assets/installation-brave.png">
-  <figcaption>Brave Install</figcaption>
-</figure>
+<img alt="Brave install" src="../assets/installation-brave.png">
+<figcaption style='margin: 0 0 2em 0;'>Brave Install</figcaption>

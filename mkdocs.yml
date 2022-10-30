@@ -4,8 +4,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
+      scheme: clams
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -13,7 +12,6 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -53,3 +51,5 @@ nav:
   - "roadmap.md"
   - "project-goals.md"
   - "running-a-vpn.md"
+extra_css:
+  - stylesheets/extra.css

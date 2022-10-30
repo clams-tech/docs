@@ -8,22 +8,16 @@ To connect you will need to input your lightning node address which is a string 
 
 You can see the format for the address in the text input below.
 
-<figure>
-  <img alt="Connect screen" src="../assets/connection.png">
-  <figcaption>The connect screen</figcaption>
-</figure>
+<img alt="Connect screen" src="../assets/connection.png">
+<figcaption style='margin: 0 0 2em 0;'>The connect screen</figcaption>
 
 You can find your address by looking up your node on a Lightning explorer such as [Amboss](https://amboss.space/node/02df5ffe895c778e10f7742a6c5b8a0cefbe9465df58b92fadeb883752c8107c8f) or [Mempool](https://mempool.space/lightning/node/02df5ffe895c778e10f7742a6c5b8a0cefbe9465df58b92fadeb883752c8107c8f) and copying the address.
 
-<figure>
-  <img alt="Amboss UI" src="../assets/amboss-connect.png">
-  <figcaption>Amboss UI for copying address</figcaption>
-</figure>
+<img alt="Amboss UI" src="../assets/amboss-connect.png">
+<figcaption style='margin: 0 0 2em 0;'>Amboss UI for copying address</figcaption>
 
-<figure>
-  <img alt="Mempool UI" src="../assets/mempool-connect.png">
-  <figcaption>Mempool UI for copying address</figcaption>
-</figure>
+<img alt="Mempool UI" src="../assets/mempool-connect.png">
+<figcaption style='margin: 0 0 2em 0;'>Mempool UI for copying address</figcaption>
 
 Alternatively you can call the [getinfo](https://lightning.readthedocs.io/lightning-getinfo.7.html) method from the lightning cli and derive the address from the `id` and `address` parameters from the returned object.
 
@@ -51,10 +45,8 @@ When connecting from the browser, we need to use a WebSocket for connection that
 
 Below is an architecture diagram demonstrating how a web browser communicates with a Lightning node via a trustless proxy server.
 
-<figure>
-  <img alt="Architecture" src="../assets/connect-diagram.png">
-  <figcaption>Web browser to lightning node communication</figcaption>
-</figure>
+<img alt="Architecture" src="../assets/connect-diagram.png">
+<figcaption style='margin: 0 0 2em 0;'>Web browser to lightning node communication</figcaption>
 
 ## Troubleshooting
 
