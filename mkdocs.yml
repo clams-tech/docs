@@ -21,7 +21,7 @@ theme:
       info: octicons/info-16
       tip: octicons/squirrel-16
   logo: assets/logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/favicon.png
   features:
     - navigation.instant
     - navigation.tracking
