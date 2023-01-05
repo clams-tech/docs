@@ -21,15 +21,16 @@ The following rune will allow read only access to your node and encodes the foll
 
 - Read the balance of funds
 - List payment history
+- Listen for invoice payments
 - Can only make requests if the node has an id equal to the session public key
 - Is rate limited to 60 requests a minute
 
 ```shell
 #v0.12.x
-lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=waitanyinvoice","method/listdatastore", "rate=60"]'
+lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=waitanyinvoice|method=waitinvoice","method/listdatastore", "rate=60"]'
 
 #v22.x.x
-lightning-cli commando-rune restrictions='[["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b"], ["method^list","method^get","method=summary","method=waitanyinvoice"],["method/listdatastore"], ["rate=60"]]'
+lightning-cli commando-rune restrictions='[["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b"], ["method^list","method^get","method=summary","method=waitanyinvoice","method=waitinvoice"],["method/listdatastore"], ["rate=60"]]'
 ```
 
 <figcaption style='font-size: small; margin: -1em 0 2em 0;'>CLI command</figcaption>
@@ -55,10 +56,10 @@ The following rune will allow full app(current) functionality and encodes the fo
 
 ```shell
 #v0.12.x
-lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=pay|method=keysend|method=invoice|method=waitanyinvoice","method/listdatastore", "rate=60"]'
+lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=pay|method=keysend|method=invoice|method=waitanyinvoice|method=waitinvoice","method/listdatastore", "rate=60"]'
 
 #v22.x.x
-lightning-cli commando-rune restrictions='[["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b"], ["method^list","method^get","method=summary","method=pay","method=keysend","method=invoice","method=waitanyinvoice"],["method/listdatastore"], ["rate=60"]]'
+lightning-cli commando-rune restrictions='[["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b"], ["method^list","method^get","method=summary","method=pay","method=keysend","method=invoice","method=waitanyinvoice","method=waitinvoice"],["method/listdatastore"], ["rate=60"]]'
 ```
 
 <figcaption style='font-size: small; margin: -1em 0 2em 0;'>CLI command</figcaption>
