@@ -43,7 +43,7 @@ _V6-OWCxC0uexq47DGclJg8bEPn7mAPx1VJ1XyPydhQ9MTMmaWQ9MDMxODQ2Zjg1NTE0ZGUzM2QwYzgw
 
 ### Lightning Payments
 
-The following rune will allow full app(current) functionality and encodes the following permissions:
+The following rune will allow full app functionality and encodes the following permissions:
 
 - Read the balance of funds
 - List payment history
@@ -51,15 +51,16 @@ The following rune will allow full app(current) functionality and encodes the fo
 - Pay invoices
 - Send keysend payments
 - Listen for invoice payment updates
+- Sign messages (for LNURL Auth)
 - Can only make requests if the node has an id equal to the session public key
 - Is rate limited to 60 requests a minute
 
 ```shell
 #v0.12.x
-lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=pay|method=keysend|method=invoice|method=waitanyinvoice|method=waitinvoice","method/listdatastore", "rate=60"]'
+lightning-cli commando-rune restrictions='["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b", "method^list|method^get|method=summary|method=pay|method=keysend|method=invoice|method=waitanyinvoice|method=waitinvoice|method=signmessage","method/listdatastore", "rate=60"]'
 
 #v22.x.x
-lightning-cli commando-rune restrictions='[["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b"], ["method^list","method^get","method=summary","method=pay","method=keysend","method=invoice","method=waitanyinvoice","method=waitinvoice"],["method/listdatastore"], ["rate=60"]]'
+lightning-cli commando-rune restrictions='[["id=031846f85514de33d0c807261aa4e801b5c0a45a3db5c1ffaf9af80eaff6ce330b"], ["method^list","method^get","method=summary","method=pay","method=keysend","method=invoice","method=waitanyinvoice","method=waitinvoice", "method=signmessage"],["method/listdatastore"], ["rate=60"]]'
 ```
 
 <figcaption style='font-size: small; margin: -1em 0 2em 0;'>CLI command</figcaption>
