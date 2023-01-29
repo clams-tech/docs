@@ -21,9 +21,11 @@ This is a list of the features we would like to implement in to the app. If ther
 - [x] [LNURL - LUD-16 (pay to lightning address)](https://github.com/lnurl/luds/blob/luds/16.md) 📱 💻
 - [x] [LNURL - LUD-02 (withdraw)](https://github.com/lnurl/luds/blob/luds/03.md) 📱 💻
 - [x] [LNURL - LUD-17 (non bech32 url)](https://github.com/lnurl/luds/blob/luds/17.md) 📱 💻
+- [ ] Direct connection to node via exposed WebSocket port 📱 💻
+- [ ] Custom WebSocket proxy server connection 📱 💻
+- [ ] [Bkpr](https://lightning.readthedocs.io/lightning-bkpr-listincome.7.html) accounting dashboard 💻
 - [ ] Create Bolt12 invoice 📱 💻
 - [ ] Scan Bolt12 invoice 📱 💻
-- [ ] [Bkpr](https://lightning.readthedocs.io/lightning-bkpr-listincome.7.html) accounting dashboard 💻
 - [ ] Keysend boostagram and comments 📱 💻
 - [ ] View onchain balance 📱 💻
 - [ ] Create onchain receive address 📱 💻
@@ -36,3 +38,5 @@ This is a list of the features we would like to implement in to the app. If ther
 - [ ] Channel and peer management (create, close, rebalance) 💻
 - [ ] [Liquidity Ads](https://medium.com/blockstream/setting-up-liquidity-ads-in-c-lightning-54e4c59c091d) dashboard 💻
 - [ ] Payment Metadata (tags, notes) that can be stored locally on your device or on your node 📱 💻
+- [ ] [Reckless](https://lightning.readthedocs.io/reckless.7.html) Plugin management UI 💻
+- [ ] UI's for controlling popular [plugins](https://github.com/lightningd/plugins) such as [CLBOSS](https://github.com/ZmnSCPxj/clboss) 💻
