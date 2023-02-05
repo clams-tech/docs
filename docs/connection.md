@@ -3,7 +3,7 @@
 To connect you will need to input your lightning node address which is a string of text composed of your node’s:
 
 - Public key
-- IP address
+- IP or DNS address
 - Port
 
 You can see the format for the address in the text input below.
