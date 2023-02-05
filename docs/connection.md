@@ -21,7 +21,16 @@ You can find your address by looking up your node on a Lightning explorer such a
 
 Alternatively you can call the [getinfo](https://lightning.readthedocs.io/lightning-getinfo.7.html) method from the lightning cli and derive the address from the `id` and `address` parameters from the returned object.
 
-Once you have inputted your address, click the connect button to initiate a connection to your node. If connection is successful, the app will navigate to the [Authentication page](https://www.notion.so/Authentication-c40fb1abd68c463aa763788ecb64c191).
+Once you have inputted your address, click the connect button to initiate a connection to your node. If connection is successful, the app will navigate to the [Authentication page](/authentication).
+
+## Advanced Options
+
+Clicking "Advance Options" will show a dropdown to enter options for connecting to a node directly without using a WebSocket proxy, or for setting a custom WebSocket proxy URL to use instead of the Clams proxy.
+
+<img alt="Advanced Settings" src="../assets/advanced-connection.png">
+<figcaption style='font-size: small; margin: -1em 0 2em 0;'>Advanced connection setting</figcaption>
+
+For detailed instructions for connecting directly to a node, see the [Testing Locally](/testing-locally) section.
 
 ## How it Works
 
