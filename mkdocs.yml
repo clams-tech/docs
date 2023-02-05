@@ -51,5 +51,6 @@ nav:
   - "roadmap.md"
   - "project-goals.md"
   - "running-a-vpn.md"
+  - "testing-locally.md"
 extra_css:
   - stylesheets/extra.css
