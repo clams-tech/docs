@@ -21,9 +21,10 @@ This is a list of the features we would like to implement in to the app. If ther
 - [x] [LNURL - LUD-16 (pay to lightning address)](https://github.com/lnurl/luds/blob/luds/16.md) 📱 💻
 - [x] [LNURL - LUD-02 (withdraw)](https://github.com/lnurl/luds/blob/luds/03.md) 📱 💻
 - [x] [LNURL - LUD-17 (non bech32 url)](https://github.com/lnurl/luds/blob/luds/17.md) 📱 💻
-- [ ] Direct connection to node via exposed WebSocket port 📱 💻
-- [ ] Custom WebSocket proxy server connection 📱 💻
-- [ ] [Bkpr](https://lightning.readthedocs.io/lightning-bkpr-listincome.7.html) accounting dashboard 💻
+- [x] Direct connection to node via exposed WebSocket port 📱 💻
+- [x] Custom WebSocket proxy server connection 📱 💻
+- [x] [Bkpr](https://lightning.readthedocs.io/lightning-bkpr-listincome.7.html) accounting dashboard 💻
+- [x] Scan [BIP21](https://bitcoinqr.dev/) QR 📱 💻
 - [ ] Create Bolt12 invoice 📱 💻
 - [ ] Scan Bolt12 invoice 📱 💻
 - [ ] Keysend boostagram and comments 📱 💻
@@ -31,12 +32,11 @@ This is a list of the features we would like to implement in to the app. If ther
 - [ ] Create onchain receive address 📱 💻
 - [ ] Send to onchain address 📱 💻
 - [ ] Scan onchain QR 📱 💻
-- [ ] Scan [BIP21](https://bitcoinqr.dev/) QR 📱 💻
 - [ ] Create [BIP21](https://bitcoinqr.dev/) QR 📱 💻
 - [ ] [Coin control](https://twitter.com/pedromvpg/status/1553123963139756032?s=20) 📱 💻
 - [ ] View channels and liquidity 📱 💻
 - [ ] Channel and peer management (create, close, rebalance) 💻
 - [ ] [Liquidity Ads](https://medium.com/blockstream/setting-up-liquidity-ads-in-c-lightning-54e4c59c091d) dashboard 💻
-- [ ] Payment Metadata (tags, notes) that can be stored locally on your device or on your node 📱 💻
+- [ ] Payment Metadata (tags, notes) that can be stored locally on your device or on your node db 📱 💻
 - [ ] [Reckless](https://lightning.readthedocs.io/reckless.7.html) Plugin management UI 💻
 - [ ] UI's for controlling popular [plugins](https://github.com/lightningd/plugins) such as [CLBOSS](https://github.com/ZmnSCPxj/clboss) 💻
