@@ -52,5 +52,6 @@ nav:
   - "project-goals.md"
   - "running-a-vpn.md"
   - "testing-locally.md"
+  - "BOLT12-offers.md"
 extra_css:
   - stylesheets/extra.css
