@@ -14,15 +14,12 @@ To try the app out you can create a local regtest lightning network using [Polar
 
 5. Save the file and restart the Polar network
 6. Run the Clams app locally:
-7. `git clone https://github.com/clams-tech/browser-app.git`
-8. `cd browser-app`
+7. `git clone https://github.com/clams-tech/App.git`
+8. `cd App`
 9. `yarn`
 10. `yarn dev-http`
 11. Enter the connection address using the public key of the node which is accessible from the "info" tab as well as `localhost:7272`.
-12. Click the "Advanced" dropdown -> select direct connection -> select `ws`:
-
-    <img width="495" alt="Screen Shot 2023-01-31 at 7 33 35 am" src="https://user-images.githubusercontent.com/29873495/215588838-79bacb66-5929-41ca-ac8e-ae8d29cc1e91.png">
-
+12. Click the "Advanced" dropdown -> select direct connection -> select `ws`
 13. Click "Connect" and you should successfully connect to the local node.
 14. To create an auth rune, click the "Actions" tab -> click "Launch which will launch a terminal window for the lightning CLI.
 15. Run `lightning-cli commando-rune` to create a rune and paste it in to the app.

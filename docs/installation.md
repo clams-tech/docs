@@ -23,12 +23,3 @@ Clams is a Progressive Web App (PWA), which means that you can install it locall
 
 <img alt="Android install" src="../assets/installation-android.png">
 <figcaption style='font-size: small; margin: -1em 0 2em 0;'>Android Install</figcaption>
-
-## Desktop (Brave/Chrome)
-
-1. Click the install icon in the address bar
-2. Click “Install” button
-3. Clams will now work like a standalone app
-
-<img alt="Brave install" src="../assets/installation-brave.png">
-<figcaption style='font-size: small; margin: -1em 0 2em 0;'>Brave Install</figcaption>
