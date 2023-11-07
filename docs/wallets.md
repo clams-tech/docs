@@ -13,7 +13,7 @@ Once you have input both, click the connect button to initiate a connection to y
 
 ### Advanced Options
 
-Clicking "Advanced" will show a dropdown to enter options for connecting to a node directly without using a WebSocket proxy, or for setting a custom WebSocket proxy URL to use instead of the Clams proxy.
+Clicking "Advanced" will show some options for connecting to a node directly without using a WebSocket proxy, or for setting a custom WebSocket proxy URL to use instead of the Clams proxy.
 
 For detailed instructions for connecting directly to a node, see the [Testing Locally](/testing-locally) section.
 

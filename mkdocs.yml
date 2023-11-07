@@ -48,11 +48,9 @@ nav:
   - "authentication.md"
   - "installation.md"
   - "encryption.md"
-  - "roadmap.md"
-  - "project-goals.md"
   - "running-a-vpn.md"
   - "testing-locally.md"
-  - "BOLT12-offers.md"
+  - "offers.md"
   - "glossary.md"
 extra_css:
   - stylesheets/extra.css
