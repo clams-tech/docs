@@ -1,6 +1,6 @@
 # Wallets
 
-This is where you establish connections to multiple wallets to synchronize data and manage funds. Start by clicking the `Add` button and selecting one of the supported options.
+This is where you establish connections to multiple wallets to synchronize data and manage funds. Start by clicking the `Add` button then selecting the Core Lightning option.
 
 ## Core Lightning
 
