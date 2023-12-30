@@ -44,13 +44,7 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - "index.md"
-  - "wallets.md"
-  - "authentication.md"
-  - "installation.md"
-  - "encryption.md"
-  - "running-a-vpn.md"
-  - "testing-locally.md"
-  - "offers.md"
+  - "remote.md"
   - "glossary.md"
 extra_css:
   - stylesheets/extra.css
