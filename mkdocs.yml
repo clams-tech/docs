@@ -44,14 +44,7 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - "index.md"
-  - "connection.md"
-  - "authentication.md"
-  - "installation.md"
-  - "encryption.md"
-  - "roadmap.md"
-  - "project-goals.md"
-  - "running-a-vpn.md"
-  - "testing-locally.md"
-  - "BOLT12-offers.md"
+  - "remote.md"
+  - "glossary.md"
 extra_css:
   - stylesheets/extra.css

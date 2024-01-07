@@ -1,6 +1,6 @@
 :root {
   /* header */
-  --md-primary-fg-color: #6305f0;
+  --md-primary-fg-color: #6305F0;
   /* anchor */
   --md-typeset-a-color:  #6305f0;
   /* anchor:hover */
@@ -8,6 +8,11 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --md-typeset-a-color: #a169f6;
-  --md-accent-fg-color: #a169f6;
+  --md-default-bg-color: rgba(0, 0, 0, 0.941);
+   /* header */
+   --md-primary-fg-color: #6305f0;
+   /* anchor */
+   --md-typeset-a-color:  #9870f9;
+   /* anchor:hover */
+   --md-accent-fg-color: #9870f9;
 }
