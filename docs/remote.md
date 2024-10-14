@@ -160,12 +160,6 @@ Once you input a rune, the app will automatically decode it and display it in a 
 
 ## Installation
 
-### Native Desktop App
-
-You can download Remote for installation by visiting the [downloads](http://clams.tech/remote/downloads) page on our website and select the version compatible with your operating system.
-
-For a comprehensive list of all available downloads, including previous releases, check out our [Github](https://github.com/clams-tech/App/releases).
-
 ### PWA
 
 Remote is offered as a Progressive Web App (PWA), allowing you to install it directly on your device. Once installed, it provides a user experience similar to that of a native app downloaded from an app store. The PWA is particularly useful for anyone that requires access to their nodes via their cellphone, especially while on the go.
