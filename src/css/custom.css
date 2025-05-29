@@ -1,0 +1,153 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Diatype Semi Mono */
+@font-face {
+    font-family: "Diatype Semi Mono";
+    src:
+        url("/fonts/ABCDiatypeSemi-Mono-Regular.woff2") format("woff2"),
+        url("/fonts/ABCDiatypeSemi-Mono-Regular.woff") format("woff"),
+        url("/fonts/ABCDiatypeSemi-Mono-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diatype Semi Mono";
+    src:
+        url("/fonts/ABCDiatypeSemi-Mono-RegularItalic.woff2") format("woff2"),
+        url("/fonts/ABCDiatypeSemi-Mono-RegularItalic.woff") format("woff"),
+        url("/fonts/ABCDiatypeSemi-Mono-RegularItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Diatype Semi Mono";
+    src:
+        url("/fonts/ABCDiatypeSemi-Mono-Medium.woff2") format("woff2"),
+        url("/fonts/ABCDiatypeSemi-Mono-Medium.woff") format("woff"),
+        url("/fonts/ABCDiatypeSemi-Mono-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diatype Semi Mono";
+    src:
+        url("/fonts/ABCDiatypeSemi-Mono-MediumItalic.woff2") format("woff2"),
+        url("/fonts/ABCDiatypeSemi-Mono-MediumItalic.woff") format("woff"),
+        url("/fonts/ABCDiatypeSemi-Mono-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Diatype Semi Mono";
+    src:
+        url("/fonts/ABCDiatypeSemi-Mono-Bold.woff2") format("woff2"),
+        url("/fonts/ABCDiatypeSemi-Mono-Bold.woff") format("woff"),
+        url("/fonts/ABCDiatypeSemi-Mono-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diatype Semi Mono";
+    src:
+        url("/fonts/ABCDiatypeSemi-Mono-BoldItalic.woff2") format("woff2"),
+        url("/fonts/ABCDiatypeSemi-Mono-BoldItalic.woff") format("woff"),
+        url("/fonts/ABCDiatypeSemi-Mono-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Synt */
+@font-face {
+    font-family: "Synt";
+    src:
+        url("/fonts/ABCSynt-Regular.woff2") format("woff2"),
+        url("/fonts/ABCSynt-Regular.woff") format("woff"),
+        url("/fonts/ABCSynt-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Synt";
+    src:
+        url("/fonts/ABCSynt-RegularItalic.woff2") format("woff2"),
+        url("/fonts/ABCSynt-RegularItalic.woff") format("woff"),
+        url("/fonts/ABCSynt-RegularItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #235811; /* clams-green-normal */
+    --ifm-color-primary-dark: #1d490e; /* clams-green-normal-hover */
+    --ifm-color-primary-darker: #173a0b; /* clams-green-normal-active */
+    --ifm-color-primary-darkest: #133009; /* clams-green-dark */
+    --ifm-color-primary-light: #9ad885; /* clams-green-light-hover */
+    --ifm-color-primary-lighter: #ade19b; /* clams-green-light */
+    --ifm-color-primary-lightest: #81c969; /* clams-green-light-active */
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    background: #f1eee7;
+    color: #212420;
+
+    .footer {
+        background: #f1eee7;
+        color: #212420;
+        border-top: 1px solid var(--ifm-color-emphasis-300);
+    }
+    .footer__title,
+    .footer__link-item {
+        color: #212420;
+    }
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+    --ifm-color-primary: #9ad885; /* clams-green-light-hover */
+    --ifm-color-primary-dark: #81c969; /* clams-green-light-active */
+    --ifm-color-primary-darker: #235811; /* clams-green-normal */
+    --ifm-color-primary-darkest: #1d490e; /* clams-green-normal-hover */
+    --ifm-color-primary-light: #ade19b; /* clams-green-light */
+    --ifm-color-primary-lighter: #bde9ad; /* (generated lighter shade) */
+    --ifm-color-primary-lightest: #d2f3c7; /* (generated lighter shade) */
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    background: #212420;
+    color: #f1eee7;
+
+    .footer {
+        background: #212420;
+        color: #f1eee7;
+        border-top: 1px solid var(--ifm-color-emphasis-300);
+    }
+    .footer__title,
+    .footer__link-item {
+        color: #f1eee7;
+    }
+}
+
+html,
+body,
+* {
+    font-family: "Diatype Semi Mono", monospace;
+}
+
+/* Set Synt font for all heading levels */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Synt", sans-serif;
+}
