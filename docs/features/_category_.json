@@ -1,8 +1,4 @@
 {
   "label": "Features",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "A deep dive on all the core features of Clams."
-  }
+  "position": 3
 }
